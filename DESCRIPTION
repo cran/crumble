@@ -1,7 +1,7 @@
 Package: crumble
 Type: Package
 Title: Flexible and General Mediation Analysis Using Riesz Representers
-Version: 0.1.0
+Version: 0.1.1
 Authors@R: 
     c(person(given = "Nicholas",
              family = "Williams",
@@ -33,14 +33,15 @@ Encoding: UTF-8
 Depends: R (>= 4.0.0)
 RoxygenNote: 7.3.2
 Imports: checkmate, Matrix, origami, torch, Rsymphony, purrr, cli, S7,
-        data.table, coro, generics, lmtp, mlr3superlearner, progressr
+        data.table, coro, generics, lmtp, mlr3superlearner, progressr,
+        ife (>= 0.1.0)
 Suggests: testthat (>= 3.0.0), truncnorm, mma
 Config/testthat/edition: 3
 NeedsCompilation: no
-Packaged: 2024-09-17 16:37:07 UTC; nicholaswilliams
+Packaged: 2024-11-14 20:44:43 UTC; nicholaswilliams
 Author: Nicholas Williams [aut, cre, cph]
     (<https://orcid.org/0000-0002-1378-4831>),
   Richard Liu [ctb],
   Iván Díaz [aut, cph] (<https://orcid.org/0000-0001-9056-2047>)
 Repository: CRAN
-Date/Publication: 2024-09-18 11:50:05 UTC
+Date/Publication: 2024-11-14 21:00:02 UTC
